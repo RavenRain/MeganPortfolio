@@ -1,0 +1,110 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  background: #816a2a;
+  padding: .75em;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 45px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: cream;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#welcome-section {
+  background: #008181;
+  min-height: 55vh;
+  padding-top: 45vh;
+}
+
+#welcome-section h1, p {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  padding: 3px;
+}
+
+.work {
+  font-size: 20px;
+  color: #4d0b39;
+  padding-top: 30px;
+}
+
+#project-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+.project-pic {
+  height: 120px; 
+}
+
+.project-title {
+  font-size: 15px;
+  color: #816a2a;
+  padding-top: 10px;
+}
+
+.contact {
+  padding: 10vh;
+  background: #3fc1c5;
+}
+
+.contact h3 {
+  padding-bottom: 2em;
+  color: #4d0b39;
+}
+
+.contact-details {
+  margin: 30px;
+}
+
+footer {
+  background: #4d0b39;
+  padding: 1em;
+}
+footer p {
+  font-size: 15px;
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
+  }
+}
